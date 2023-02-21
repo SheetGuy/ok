@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>ScreenCode | Create beautiful images of your source code</title>
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/css/menu.css">
+   <link rel="stylesheet" href="assets/css/code-editor.css">
+   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+   <div class="container">
+      <div class="menu">
+         <div class="menu-content">
+            <div class="editors-preferences">
+               <p class="menu-title">Editor's preferences</p>
+               <div class="section">
+                  <p>Language:</p>
+                  <select class="select-language">
+                     <option value="">Auto-Detect</option>
+                  </select>
+               </div>
+               <div class="section">
+                  <p>Theme:</p>
+                  <select class="select-theme">
+                     <option value="">Dracula</option>
+                  </select>
+               </div>
+               <div class="section">
+                  <p>Font:</p>
+                  <select class="select-font">
+                     <option value="">Monospace</option>
+                  </select>
+               </div>
+               <div class="section flex-content">
+                  <p>Title:</p>
+                  <input type="text" class="input-title" placeholder="index.html" value="untitled">
+               </div>
+               <div class="section flex-content">
+                  <p>Font size:</p>
+                  <div>
+                     <input type="number" class="input-fontsize" value="30">
+                     <span>px</span>
+                  </div>
+               </div>
+               <div class="section flex-content">
+                  <p>Line number:</p>
+                  <input type="checkbox" id="lineNumber-checkbox" />
+                  <label for="lineNumber-checkbox" class="switch" id="switch-lineNumber" onclick="switchToggle('switch-lineNumber')">
+                     <div class="ball"></div>
+                  </label>
+               </div>
+               <div class="section flex-content">
+                  <p>Border radius:</p>
+                  <div>
+                     <input type="number" class="input-fontsize" value="5">
+                     <span>px</span>
+                  </div>
+               </div>
+               <div class="border-preferences">
+                  <div class="section flex-content">
+                     <p>Border:</p>
+                     <input type="checkbox" id="border-checkbox" checked />
+                     <label for="border-checkbox" class="switch on" id="switch-border" onclick="switchToggle('switch-border')">
+                        <div class="ball"></div>
+                     </label>
+                  </div>
+                  <div class="active-content border">
+                     <p>Color:</p>
+                     <input type="text">
+                     kkkkkkkkk
+                  </div>
+               </div>
+            </div>
+            <line></line>
+            <div class="image-preferences">
+               <p class="menu-title">Image's preferences</p>
+               <div class="section flex-content">
+                  <p>Background:</p>
+                  <input type="checkbox" id="background-checkbox" checked />
+                  <label for="background-checkbox" class="switch on" id="switch-background" onclick="switchToggle('switch-background')">
+                     <div class="ball"></div>
+                  </label>
+               </div>
+               <div class="section flex-content">
+                  <p>Water mark:</p>
+                  <input type="checkbox" id="waterMark-checkbox" checked />
+                  <label for="waterMark-checkbox" class="switch on" id="switch-watermark" onclick="switchToggle('switch-watermark')">
+                     <div class="ball"></div>
+                  </label>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--<div class="code-area-container">
+         <div class="code-area-content">
+            luiii
+         </div>
+      </div>-->
+   </div>
+   <script src="assets/js/app.js"></script>
+</body>
+
+</html>
