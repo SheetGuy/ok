@@ -5,6 +5,8 @@
    width: 28vw;
    overflow: auto;
    display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .menu-title {
