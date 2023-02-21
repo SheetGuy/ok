@@ -1,7 +1,8 @@
 .menu {
    padding: 12px 15px 0px 15px;
    background: var(--body-color);
-   height: 100vh;
+   height: 100%;
+   position: fixed;
    width: 28vw;
    overflow: auto;
    display: flex;
@@ -13,7 +14,7 @@
 }
 
 .menu-title {
-   font-size: 1.5rem;
+   font-size: 1.5vw;
    color: var(--text-title-color);
    font-weight: 600;
    margin: 5px 0px 8px 0px;
