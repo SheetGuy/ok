@@ -1,0 +1,50 @@
+.menu {
+   padding: 12px 15px 0px 15px;
+   background: var(--body-color);
+   height: 100vh;
+   width: 28vw;
+   overflow: auto;
+   display: flex;
+}
+
+.menu-title {
+   font-size: 1.5rem;
+   color: var(--text-title-color);
+   font-weight: 600;
+   margin: 5px 0px 8px 0px;
+}
+
+.section {
+   margin: 4px 0 17px 0;
+}
+
+.section p {
+   font-weight: 500;
+}
+
+.select-language,
+.select-theme,
+.select-font {
+   color: var(--text-color);
+   width: 100%;
+   height: 23px;
+}
+
+.flex-content {
+   display: flex;
+   justify-content: space-between;
+}
+
+.flex-content span {
+   font-size: 13px;
+}
+
+.input-fontsize {
+   width: 50px;
+   text-align: center;
+}
+
+.input-title {
+   width: 80%;
+   text-align: center;
+}
