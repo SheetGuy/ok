@@ -5,6 +5,7 @@
    width: 28vw;
    overflow: auto;
    display: flex;
+
 .menu-title {
    font-size: 1.5rem;
    color: var(--text-title-color);
